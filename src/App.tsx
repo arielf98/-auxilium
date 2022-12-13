@@ -1,14 +1,9 @@
-import { Box } from '@mui/material'
-import Typography from '@mui/material/Typography'
+import Login from "./features/login"
+
 
 function App() {
-
   return (
-    <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-      <Typography>
-        First Place
-      </Typography>
-    </Box>
+    <Login />
   )
 }
 
